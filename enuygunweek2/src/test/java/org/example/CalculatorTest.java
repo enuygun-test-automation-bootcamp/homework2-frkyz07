@@ -4,14 +4,23 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CalculatorTest {
+// our test file is craeted
 
+class CalculatorTest {
+//this is our test class
     @Test
+    // we are using this test annotations for declaring this function will be test
     void plus() {
         var operationPlus = new Calculator();
-        double operationPlusResults = operationPlus.plus(5.15,7.15);
+        // in here we are creating a method from our main function to test it
+        double operationPlusResults = operationPlus.plus(-5,-2);
+        // in here we are using the method
+        // i create a different variable to see the results but you can choose not to do so
         System.out.println(operationPlusResults);
-       assertEquals(12.30,operationPlusResults);
+        // in here we are printing the result
+       assertEquals(-7,operationPlusResults);
+       // and in here we are using the "assertEquals" method to compare the expected result and
+        // the result we got from our test are some or not
     }
 
     @Test
