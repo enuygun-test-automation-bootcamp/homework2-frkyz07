@@ -22,6 +22,7 @@ class CalculatorTest {
        // and in here we are using the "assertEquals" method to compare the expected result and
         // the result we got from our test are some or not
     }
+    // All the other tests are done by same logic
 
     @Test
     void divide() {
