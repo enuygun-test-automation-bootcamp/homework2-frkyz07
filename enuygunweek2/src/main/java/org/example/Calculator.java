@@ -25,8 +25,8 @@ public class Calculator {
 
     }
 
-    // after we write our function to test it we can create our test file
-    ///with using "ctrl+shift+t" shortcut after this our test file will created
+    // after we write our function to test it we can create our test file with
+    ///using "ctrl+shift+t" shortcut after using this our test file will be created
 
 
 }
