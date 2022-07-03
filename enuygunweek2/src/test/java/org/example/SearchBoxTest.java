@@ -27,7 +27,7 @@ class SearchBoxTest {
         JavascriptExecutor jse = (JavascriptExecutor)driver;
         jse.executeScript("window.scrollBy(0,250)");
 
-        // we give webtables section link to click
+        // we give the weatable's link to click
         driver.findElement(By.xpath("//div//ul//li[@id='item-3'][1]")).click();
         // in here we are giving the searchbox's xpath to the assertTrue assertion for comparing if it is displayed or not
         assertTrue(driver.findElement(By.id("searchBox")).isDisplayed());
